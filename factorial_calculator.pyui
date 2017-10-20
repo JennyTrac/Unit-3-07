@@ -1,0 +1,88 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter a positive integer to calculate the factorial:",
+          "font_name" : "<System>",
+          "name" : "instructions_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "857BEBC9-06E7-45A0-8C39-413A04978DA3"
+        },
+        "frame" : "{{29, 29}, {480, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "user_input_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "46ECEEF9-DBFE-49C5-945C-37480982C065"
+        },
+        "frame" : "{{29, 85}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Calculate",
+          "name" : "calculate_button",
+          "action" : "calculate_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "DE56FF39-9FEE-466F-828B-FDBE041FE544"
+        },
+        "frame" : "{{271, 85}, {132, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "answer_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "FB117FA5-EDD8-45FD-AC2F-6AEE4D7A7DC3"
+        },
+        "frame" : "{{29, 145}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
